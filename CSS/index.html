@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="style.css" rel="Stylesheet" />
     <title>The basic Language of the web HTML</title>
   </head>
 
-  <aside>
-    <!--
+  <body>
+    <aside>
+      <!--
     <h1>Language of the web</h1>
     <h2>Language of the web</h2>
     <h3>Language of the web</h3>
     <h4>Language of the web</h4>
     <h5>Language of the web</h5>
     <h6>Language of the web</h6>
-  -->
+    --></aside>
+
     <header>
       <h1>📘 The Code Magazine</h1>
 
@@ -22,6 +25,8 @@
         <a href="#">Flexbox</a>
         <a href="#">CSS Grid</a>
       </nav>
+
+      <p>Sample Text</p>
     </header>
 
     <article>
@@ -35,7 +40,9 @@
           width="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="images/post-img.jpg"
@@ -106,56 +113,56 @@
       </ul>
 
       <p>Hopefully you learned something new here. See you next time!</p>
-
-      <aside>
-      <strong>Related Post</strong>
     </article>
 
-    <ul>
-      <li>
-        <img
-          src="images/related-1.jpg"
-          alt="Learn Web Devlopment"
-          height="75"
-          width="75"
-        />
+    <aside>
+      <h4>Related Post</h4>
 
-        <a href="#">How to Learn Web Devlopment</a>
-      </li>
-      <p>By Jonas Schmedtmann</p>
-    </ul>
+      <ul class="related">
+        <li>
+          <img
+            src="images/related-1.jpg"
+            alt="Learn Web Devlopment"
+            height="75"
+            width="75"
+          />
 
-    <ul>
-      <li>
-        <img
-          src="images/related-2.jpg"
-          alt="The Unkown power of CSS"
-          height="75"
-          width="75"
-        />
+          <a href="#">How to Learn Web Development</a>
+        </li>
+        <p class="author-relation">By Jonas Schmedtmann</p>
+      </ul>
 
-        <a href="#">The Unkown Powers of CSS</a>
-      </li>
-      <p>By Jim Dillon</p>
-    </ul>
+      <ul class="related">
+        <li>
+          <img
+            src="images/related-2.jpg"
+            alt="The Unkown power of CSS"
+            height="75"
+            width="75"
+          />
 
-    <ul>
-      <li>
-        <img
-          src="images/related-3.jpg"
-          alt="Why JavaScript is Awesome"
-          height="75"
-          width="75"
-        />
+          <a href="#">The Unknown Powers of CSS</a>
+        </li>
+        <p class="author-relation">By Jim Dillon</p>
+      </ul>
 
-        <a href="#">Why Javascript is Awesome</a>
-      </li>
-      <p>By Matilda</p>
-    </ul>
-</aside>
+      <ul class="related">
+        <li>
+          <img
+            src="images/related-3.jpg"
+            alt="Why JavaScript is Awesome"
+            height="75"
+            width="75"
+          />
+
+          <a href="#">Why Javascript is Awesome</a>
+        </li>
+        <p class="author-relation">By Matilda</p>
+      </ul>
+    </aside>
 
     <footer>
-      <p>Copyritht &copy; 2027 by The Code Magazine</p>
+      <p id="copyright">Copyrigth &copy; 2027 by The Code Magazine</p>
     </footer>
   </body>
 </html>
